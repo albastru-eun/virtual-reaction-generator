@@ -23,3 +23,13 @@
 ```python
 #functionalizer (example)
 ```
+
+***
+
+<br>
+
+### **example of utilization**
+
+<p align="center">
+ <img src = "readme/example_route.jpg">
+</p>
