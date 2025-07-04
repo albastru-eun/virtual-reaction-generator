@@ -5,12 +5,18 @@
 
 <br>
 
-> * Module 1. `Functionalizer`
-> * Module 2. `Atom Changer`
-> * Module 3. `Atom Remover`
-> * Module 4. `Graph Mixer`
-> * Module 5. `Polarity Tuner`
-> * Module 6. `Aryl Swapper`
+> * **Module 1.** `Functionalizer`
+>> cluster-based model
+> * **Module 2.** `Atom Changer`
+>> non-cluster model / but, can be applied
+> * **Module 3.** `Atom Remover`
+>> cluster-based model
+> * **Module 4.** `Graph Mixer`
+>> in progress
+> * **Module 5.** `Polarity Tuner`
+>> in progress
+> * **Module 6.** `Aryl Swapper`
+>> in progress
 
 ***
 
