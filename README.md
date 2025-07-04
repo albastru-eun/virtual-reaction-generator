@@ -28,7 +28,7 @@
 
 <br>
 
-### **example of utilization**
+### * *example of utilization*
 
 <p align="center">
  <img src = "readme/example_route.jpg">
