@@ -8,7 +8,7 @@
 > * **Module 1.** `Functionalizer`
 >> cluster-based model
 > * **Module 2.** `Atom Changer`
->> non-cluster model / but, can be applied
+>> non-cluster model (can be applied)
 > * **Module 3.** `Atom Remover`
 >> cluster-based model
 > * **Module 4.** `Graph Mixer`
