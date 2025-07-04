@@ -1,16 +1,19 @@
-# **VRS**
+# **Virtual Reaction Synthesis (VRS)**
 <br>
 
 ***
 
 <br>
 
-> * program 1. `F`
-> * program 2. `C`
-> * program 3. `R`
+> * Module 1. `Functionalizer`
+> * Module 2. `Atom Changer`
+> * Module 3. `Atom Remover`
+> * Module 4. `Graph Mixer`
+> * Module 5. `Polarity Tuner`
+> * Module 6. `Aryl Swapper`
 
 ***
 
 ```python
-#F (example)
+#functionalizer (example)
 ```
