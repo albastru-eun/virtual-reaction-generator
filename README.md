@@ -1,4 +1,4 @@
-# **Virtual Reaction Synthesis (VRS)**
+# **Virtual Reaction Generator (VRG)**
 <br>
 
 ***
