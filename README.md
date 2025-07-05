@@ -5,7 +5,7 @@
 
 <br>
 
-> * **Module 1.** `Functionalizer`
+> * **Module 1.** [`Functionalizer`](#1.-functionalizer)
 > * **Module 2.** `Atom Changer`
 > * **Module 3.** `Atom Remover`
 > * **Module 4.** `Graph Mixer`
@@ -15,7 +15,13 @@
 > * **Module 6.** `Aryl Swapper`
 >> in progress
 
+<br>
+
 ***
+
+<br>
+
+### **1. functionalizer**
 
 ```python
 #functionalizer (example)
