@@ -39,7 +39,7 @@ jupyter-lab
 
 <br>
 
-### **1. functionalizer**
+### **1. Functionalizer**
 
 ```python
 #functionalizer (example)
