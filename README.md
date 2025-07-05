@@ -6,11 +6,8 @@
 <br>
 
 > * **Module 1.** `Functionalizer`
->> cluster-based model
 > * **Module 2.** `Atom Changer`
->> non-cluster model (can be applied)
 > * **Module 3.** `Atom Remover`
->> cluster-based model
 > * **Module 4.** `Graph Mixer`
 >> in progress
 > * **Module 5.** `Polarity Tuner`
