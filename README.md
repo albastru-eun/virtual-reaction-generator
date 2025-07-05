@@ -5,7 +5,7 @@
 
 <br>
 
-> * **Module 1.** [`Functionalizer`](#1.-functionalizer)
+> * **Module 1.** [`Functionalizer`](#1-functionalizer)
 > * **Module 2.** `Atom Changer`
 > * **Module 3.** `Atom Remover`
 > * **Module 4.** `Graph Mixer`
