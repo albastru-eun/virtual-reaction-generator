@@ -7,7 +7,7 @@
 
 <br>
 
-*VRG was developed under anaconda environment.*
+*VRG was developed in jupyter-lab under anaconda environment.*
 ```anaconda
 conda create –n vrg python==3.12
 conda activate vrg
