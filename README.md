@@ -3,6 +3,20 @@
 
 ***
 
+> * **installation**
+
+<br>
+
+*VRG was developed under anaconda environment.*
+```anaconda
+conda create –n vrg python==3.12
+conda activate vrg
+conda install numpy pandas tqdm scikit-learn scipy
+conda install -c conda-forge rdkit
+conda install -c conda-forge jupyter-lab
+jupyter-lab
+```
+
 <br>
 
 > * **Module 1.** [`Functionalizer`](#1-functionalizer)
