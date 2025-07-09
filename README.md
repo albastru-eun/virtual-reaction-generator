@@ -54,3 +54,13 @@ jupyter-lab
 <p align="center">
  <img src = "readme/example_route.jpg">
 </p>
+
+
+
+
+<br>
+<br>
+
+### **benchmark model**
+
+r-smiles: github.com/otori-bird/retrosynthesis
