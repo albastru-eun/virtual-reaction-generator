@@ -23,15 +23,10 @@ jupyter-lab
 
 <br>
 
-> * **Module 1.** [`Functionalizer`](#1-functionalizer)
-> * **Module 2.** `Atom Changer`
-> * **Module 3.** `Atom Remover`
-> * **Module 4.** `Graph Mixer`
->> in progress
-> * **Module 5.** `Polarity Tuner`
->> in progress
-> * **Module 6.** `Aryl Swapper`
->> in progress
+> * **Module 1.** [`Atom Changer`](#1-atom-changer)
+> * **Module 2.** [`Atom Remover`](#2-atom-remover)
+> * **Module 3.** [`Functionalizer`](#3-functionalizer)
+> * **Module 4.** [`Graph Mixer`](#4-graph-mixer)
 
 <br>
 
@@ -39,10 +34,40 @@ jupyter-lab
 
 <br>
 
-### **1. Functionalizer**
+### **1. Atom Changer**
+
+```python
+#atom changer (example)
+```
+
+***
+
+<br>
+
+### **2. Atom Remover**
+
+```python
+#atom remover (example)
+```
+
+***
+
+<br>
+
+### **3. Functionalizer**
 
 ```python
 #functionalizer (example)
+```
+
+***
+
+<br>
+
+### **4. Graph Mixer**
+
+```python
+#graph mixer (example)
 ```
 
 ***
