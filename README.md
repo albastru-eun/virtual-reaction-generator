@@ -16,10 +16,6 @@ conda install -c conda-forge rdkit
 conda install -c conda-forge jupyter-lab
 jupyter-lab
 ```
-*Open main.ipynb file and just change parameters at the first code box like below.*
-```python
-
-```
 
 <br>
 
