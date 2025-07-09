@@ -121,11 +121,12 @@ n_iter=10
 ### **5. Linear Model**
 
 main_linear.ipynb
+*or*
+main_linear.py # for Linux
 
 ### * *example of utilization*
-*visual example of process (not real output)*
 <p align="left">
- <img src = "readme/example_route.jpg">
+ <img src = "readme/.jpg">
 </p>
 
 <br>
