@@ -38,6 +38,9 @@ jupyter-lab
 
 ```python
 #atom changer (example)
+nrows = 50000
+similarity_value = 0.85
+n_iter=5
 ```
 
 **output**
@@ -53,6 +56,9 @@ jupyter-lab
 
 ```python
 #atom remover (example)
+nrows = 50000
+similarity_value = 0.85
+n_iter=15
 ```
 
 **output**
@@ -68,6 +74,11 @@ jupyter-lab
 
 ```python
 #functionalizer (example)
+nrows = 50000
+aug_num = 3
+aug_num_val = 3
+similarity_value = 0.8
+daring_value = 0.6
 ```
 
 **output**
@@ -83,6 +94,9 @@ jupyter-lab
 
 ```python
 #graph mixer (example)
+nrows = 50000
+similarity_value = 0.8
+n_iter=10
 ```
 
 **output**
