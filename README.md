@@ -80,8 +80,7 @@ jupyter-lab
  <img src = "readme/example_route.jpg">
 </p>
 
-
-
+###### *just example of process*
 
 <br>
 <br>
