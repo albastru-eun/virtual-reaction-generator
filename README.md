@@ -42,7 +42,7 @@ jupyter-lab
 
 **output**
 <p align="center">
- <img src = "readme/ac_real.png">
+ <img src = "readme/ac_real.png" width=30% height=30%>
 </p>
 
 ***
@@ -57,7 +57,7 @@ jupyter-lab
 
 **output**
 <p align="center">
- <img src = "readme/ar_real.png">
+ <img src = "readme/ar_real.png" width=30% height=30%>
 </p>
 
 ***
@@ -72,7 +72,7 @@ jupyter-lab
 
 **output**
 <p align="center">
- <img src = "readme/f_real.png">
+ <img src = "readme/f_real.png" width=30% height=30%>
 </p>
 
 ***
@@ -87,7 +87,7 @@ jupyter-lab
 
 **output**
 <p align="center">
- <img src = "readme/gm_real.png">
+ <img src = "readme/gm_real.png" width=30% height=30%>
 </p>
 
 ***
