@@ -23,6 +23,7 @@ jupyter-lab
 > * **Module 2.** [`Atom Remover`](#2-atom-remover)
 > * **Module 3.** [`Functionalizer`](#3-functionalizer)
 > * **Module 4.** [`Graph Mixer`](#4-graph-mixer)
+> * **Linear Augmentation** [`Linear Model`](#5-linear-model)
 
 <br>
 
@@ -31,6 +32,8 @@ jupyter-lab
 <br>
 
 ### **1. Atom Changer**
+
+main_atom_changer.ipynb
 
 ```python
 #atom changer (example)
@@ -50,6 +53,8 @@ n_iter=5
 
 ### **2. Atom Remover**
 
+main_atom_remover.ipynb
+
 ```python
 #atom remover (example)
 nrows = 50000
@@ -67,6 +72,8 @@ n_iter=15
 <br>
 
 ### **3. Functionalizer**
+
+main_functionalizer.ipynb
 
 ```python
 #functionalizer (example)
@@ -88,6 +95,8 @@ daring_value = 0.6
 
 ### **4. Graph Mixer**
 
+main_graph_mixer.ipynb
+
 ```python
 #graph mixer (example)
 nrows = 50000
@@ -103,6 +112,10 @@ n_iter=10
 ***
 
 <br>
+
+### **5. Linear Model**
+
+main_linear.ipynb
 
 ### * *example of utilization*
 *visual example of process (not real output)*
