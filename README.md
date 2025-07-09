@@ -1,4 +1,9 @@
 # **Virtual Reaction Generator (VRG)**
+
+<p align="left">
+ <img src = "readme/example_route.jpg">
+</p>
+
 <br>
 
 ***
@@ -119,7 +124,7 @@ main_linear.ipynb
 
 ### * *example of utilization*
 *visual example of process (not real output)*
-<p align="center">
+<p align="left">
  <img src = "readme/example_route.jpg">
 </p>
 
