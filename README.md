@@ -40,6 +40,11 @@ jupyter-lab
 #atom changer (example)
 ```
 
+**output**
+<p align="center">
+ <img src = "readme/ac_real.png">
+</p>
+
 ***
 
 <br>
@@ -49,6 +54,11 @@ jupyter-lab
 ```python
 #atom remover (example)
 ```
+
+**output**
+<p align="center">
+ <img src = "readme/ar_real.png">
+</p>
 
 ***
 
@@ -60,6 +70,11 @@ jupyter-lab
 #functionalizer (example)
 ```
 
+**output**
+<p align="center">
+ <img src = "readme/f_real.png">
+</p>
+
 ***
 
 <br>
@@ -69,6 +84,11 @@ jupyter-lab
 ```python
 #graph mixer (example)
 ```
+
+**output**
+<p align="center">
+ <img src = "readme/gm_real.png">
+</p>
 
 ***
 
