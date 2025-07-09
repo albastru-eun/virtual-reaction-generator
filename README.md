@@ -75,12 +75,10 @@ jupyter-lab
 <br>
 
 ### * *example of utilization*
-
+*visual example of process (not real output)*
 <p align="center">
  <img src = "readme/example_route.jpg">
 </p>
-
-###### *just example of process*
 
 <br>
 <br>
