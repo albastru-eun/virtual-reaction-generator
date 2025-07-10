@@ -119,8 +119,8 @@ n_iter=10
 
 ### **5. Linear Model**
 
-main_linear.ipynb
-*or*
+main_linear.ipynb <br>
+*or* <br>
 main_linear.py # for Linux
 
 ### * *example of utilization*
