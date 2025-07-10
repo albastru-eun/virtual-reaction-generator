@@ -134,7 +134,7 @@ dataset\[1\]: mixed # remove it before use
 ### * *example of utilization* <br>
 (example) 500 rows from train > module 4 (10 iter) > module 3 (5 iter) > module 2 (5 iter) > + 725 rows <br>
 <p align="left">
- <img src = "readme/linear_real.png">
+ <img src = "readme/linear_real.png" style="width:55%; height:55%;">
 </p>
 
 <br>
