@@ -100,10 +100,7 @@ daring_value = 0.6
 
 ### **4. Graph Mixer**
 
-main_graph_mixer.ipynb
-
-<br>
-
+main_graph_mixer.ipynb <br>
 id: (id1, id2) # Partial ring from id1 was used to replace part of id2.
 
 ```python
