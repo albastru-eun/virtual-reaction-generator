@@ -57,7 +57,7 @@ n_iter=5
 
 ### **2. Atom Remover**
 
-main_atom_remover.ipynb
+main_atom_remover.ipynb <br>
 dataset\[1\]: UNK
 
 ```python
@@ -78,7 +78,7 @@ n_iter=15
 
 ### **3. Functionalizer**
 
-main_functionalizer.ipynb
+main_functionalizer.ipynb <br>
 dataset\[1\]: reaction center # remove it before use
 
 ```python
@@ -102,7 +102,7 @@ daring_value = 0.6
 ### **4. Graph Mixer**
 
 main_graph_mixer.ipynb <br>
-dataset\[1\]: number of subsituents around the changed ring # remove it before use
+dataset\[1\]: number of subsituents around the changed ring # remove it before use <br>
 id: (id1, id2) # Partial ring from id1 was used to replace part of id2.
 
 ```python
