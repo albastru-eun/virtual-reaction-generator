@@ -36,7 +36,8 @@ jupyter-lab
 
 ### **1. Atom Changer**
 
-main_atom_changer.ipynb
+main_atom_changer.ipynb <br>
+dataset\[1\]: reaction center # remove it before use
 
 ```python
 #atom changer (example)
@@ -57,6 +58,7 @@ n_iter=5
 ### **2. Atom Remover**
 
 main_atom_remover.ipynb
+dataset\[1\]: UNK
 
 ```python
 #atom remover (example)
@@ -77,6 +79,7 @@ n_iter=15
 ### **3. Functionalizer**
 
 main_functionalizer.ipynb
+dataset\[1\]: reaction center # remove it before use
 
 ```python
 #functionalizer (example)
@@ -99,6 +102,7 @@ daring_value = 0.6
 ### **4. Graph Mixer**
 
 main_graph_mixer.ipynb <br>
+dataset\[1\]: number of subsituents around the changed ring # remove it before use
 id: (id1, id2) # Partial ring from id1 was used to replace part of id2.
 
 ```python
@@ -123,7 +127,12 @@ main_linear.ipynb <br>
 *or* <br>
 main_linear.py # for Linux
 
-### * *example of utilization*
+<br>
+
+dataset\[1\]: mixed # remove it before use
+
+### * *example of utilization* <br>
+2000/400 rows of datasets > module 3 > module 1 > module 2 > module 4 > + xxx/xxx rows <br>
 <p align="left">
  <img src = "readme/.jpg">
 </p>
