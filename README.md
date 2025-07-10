@@ -132,9 +132,9 @@ main_linear.py # for Linux
 dataset\[1\]: mixed # remove it before use
 
 ### * *example of utilization* <br>
-2000/400 rows of datasets > module 3 > module 1 > module 2 > module 4 > + xxx/xxx rows <br>
+(example) 500 rows from train > module 4 (10 iter) > module 3 (5 iter) > module 2 (5 iter) > + 725 rows <br>
 <p align="left">
- <img src = "readme/.jpg">
+ <img src = "readme/linear_real.jpg">
 </p>
 
 <br>
