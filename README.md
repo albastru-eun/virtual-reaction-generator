@@ -101,6 +101,7 @@ daring_value = 0.6
 ### **4. Graph Mixer**
 
 main_graph_mixer.ipynb
+id: (id1, id2) # partial ring of id1 was patched to id2.
 
 ```python
 #graph mixer (example)
