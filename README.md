@@ -140,6 +140,7 @@ dataset\[1\]: mixed # remove it before use
 <br>
 <br>
 
-### **benchmark model**
+### **Benchmark model**
 
-r-smiles: github.com/otori-bird/retrosynthesis
+r-smiles: github.com/otori-bird/retrosynthesis <br>
+(pretrained with non-augmented datasets)
