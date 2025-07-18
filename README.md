@@ -148,7 +148,7 @@ r-smiles: github.com/otori-bird/retrosynthesis <br>
 > * **evaluation result** <br>
 *overall reaction type (retrosynthesis)* <br>
 |modules|top-1|top-3|top-5|top-10|
-|:-:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|
 |AC|XX|XX|XX|XX|
 |AR|XX|XX|XX|XX|
 |F|XX|XX|XX|XX|
