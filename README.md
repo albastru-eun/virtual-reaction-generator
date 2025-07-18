@@ -145,7 +145,9 @@ dataset\[1\]: mixed # remove it before use
 r-smiles: github.com/otori-bird/retrosynthesis <br>
 (pretrained with non-augmented datasets)
 
-> * **evaluation result** <br>
+<br>
+
+**evaluation result** <br>
 
 *overall reaction type (retrosynthesis)* <br>
 
