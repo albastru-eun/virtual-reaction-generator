@@ -146,7 +146,9 @@ r-smiles: github.com/otori-bird/retrosynthesis <br>
 (pretrained with non-augmented datasets)
 
 > * **evaluation result** <br>
+
 *overall reaction type (retrosynthesis)* <br>
+
 | modules | top-1 | top-3 | top-5 | top-10 |
 |:-------:|:-----:|:-----:|:-----:|:------:|
 | AC      | XX    | XX    | XX    | XX     |
