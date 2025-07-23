@@ -161,4 +161,72 @@ r-smiles: github.com/otori-bird/retrosynthesis <br>
 | ensemble   | XX    | XX    | XX    | XX     |
 | average    | XX    | XX    | XX    | XX     |
 
+<br>
 
+*non-ring* <br>
+
+|   modules  | top-1 | top-3 | top-5 | top-10 |
+|:----------:|:-----:|:-----:|:-----:|:------:|
+| AC         | XX    | XX    | XX    | XX     |
+| AR         | XX    | XX    | XX    | XX     |
+| F          | XX    | XX    | XX    | XX     |
+| GM         | XX    | XX    | XX    | XX     |
+| all        | XX    | XX    | XX    | XX     |
+| ensemble   | XX    | XX    | XX    | XX     |
+| average    | XX    | XX    | XX    | XX     |
+
+<br>
+
+*ring-opening* <br>
+
+|   modules  | top-1 | top-3 | top-5 | top-10 |
+|:----------:|:-----:|:-----:|:-----:|:------:|
+| AC         | XX    | XX    | XX    | XX     |
+| AR         | XX    | XX    | XX    | XX     |
+| F          | XX    | XX    | XX    | XX     |
+| GM         | XX    | XX    | XX    | XX     |
+| all        | XX    | XX    | XX    | XX     |
+| ensemble   | XX    | XX    | XX    | XX     |
+| average    | XX    | XX    | XX    | XX     |
+
+<br>
+
+*ring-closing* <br>
+
+|   modules  | top-1 | top-3 | top-5 | top-10 |
+|:----------:|:-----:|:-----:|:-----:|:------:|
+| AC         | XX    | XX    | XX    | XX     |
+| AR         | XX    | XX    | XX    | XX     |
+| F          | XX    | XX    | XX    | XX     |
+| GM         | XX    | XX    | XX    | XX     |
+| all        | XX    | XX    | XX    | XX     |
+| ensemble   | XX    | XX    | XX    | XX     |
+| average    | XX    | XX    | XX    | XX     |
+
+<br>
+
+*w/ chirality* <br>
+
+|   modules  | top-1 | top-3 | top-5 | top-10 |
+|:----------:|:-----:|:-----:|:-----:|:------:|
+| AC         | XX    | XX    | XX    | XX     |
+| AR         | XX    | XX    | XX    | XX     |
+| F          | XX    | XX    | XX    | XX     |
+| GM         | XX    | XX    | XX    | XX     |
+| all        | XX    | XX    | XX    | XX     |
+| ensemble   | XX    | XX    | XX    | XX     |
+| average    | XX    | XX    | XX    | XX     |
+
+<br>
+
+*w/o chirality* <br>
+
+|   modules  | top-1 | top-3 | top-5 | top-10 |
+|:----------:|:-----:|:-----:|:-----:|:------:|
+| AC         | XX    | XX    | XX    | XX     |
+| AR         | XX    | XX    | XX    | XX     |
+| F          | XX    | XX    | XX    | XX     |
+| GM         | XX    | XX    | XX    | XX     |
+| all        | XX    | XX    | XX    | XX     |
+| ensemble   | XX    | XX    | XX    | XX     |
+| average    | XX    | XX    | XX    | XX     |
