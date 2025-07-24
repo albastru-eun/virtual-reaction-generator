@@ -147,6 +147,8 @@ r-smiles: github.com/otori-bird/retrosynthesis <br>
 
 To facilitate smoother training, the batch size was optimized for our system. <br>
 
+*see r-smiles_modified.zip* <br>
+
 <br>
 
 **evaluation result** <br>
