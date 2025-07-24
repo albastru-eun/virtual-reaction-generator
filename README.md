@@ -143,7 +143,9 @@ dataset\[1\]: mixed # remove it before use
 ### **Benchmark model**
 
 r-smiles: github.com/otori-bird/retrosynthesis <br>
-(pretrained with non-augmented datasets)
+(pretrained with non-augmented datasets) <br>
+
+To facilitate smoother training, the batch size was optimized for our system. <br>
 
 <br>
 
