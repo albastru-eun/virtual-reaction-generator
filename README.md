@@ -151,12 +151,28 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 
 <br>
 
-**evaluation result** <br>
+**retrosynthesis prediction (improved from retrained r-smiles)** <br>
 
-*overall reaction type (retrosynthesis)* <br>
+*overall reaction type* <br>
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
+| r-smiles   | XX    | XX    | XX    | XX     |
+| AC         | XX    | XX    | XX    | XX     |
+| AR         | XX    | XX    | XX    | XX     |
+| F          | XX    | XX    | XX    | XX     |
+| GM         | XX    | XX    | XX    | XX     |
+| all        | XX    | XX    | XX    | XX     |
+| ensemble   | XX    | XX    | XX    | XX     |
+| average    | XX    | XX    | XX    | XX     |
+
+<br>
+
+*overall reaction type (MaxFrag)* <br>
+
+|   modules  | top-1 | top-3 | top-5 | top-10 |
+|:----------:|:-----:|:-----:|:-----:|:------:|
+| r-smiles   | XX    | XX    | XX    | XX     |
 | AC         | XX    | XX    | XX    | XX     |
 | AR         | XX    | XX    | XX    | XX     |
 | F          | XX    | XX    | XX    | XX     |
@@ -171,6 +187,7 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
+| r-smiles   | XX    | XX    | XX    | XX     |
 | AC         | XX    | XX    | XX    | XX     |
 | AR         | XX    | XX    | XX    | XX     |
 | F          | XX    | XX    | XX    | XX     |
@@ -185,6 +202,7 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
+| r-smiles   | XX    | XX    | XX    | XX     |
 | AC         | XX    | XX    | XX    | XX     |
 | AR         | XX    | XX    | XX    | XX     |
 | F          | XX    | XX    | XX    | XX     |
@@ -199,6 +217,7 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
+| r-smiles   | XX    | XX    | XX    | XX     |
 | AC         | XX    | XX    | XX    | XX     |
 | AR         | XX    | XX    | XX    | XX     |
 | F          | XX    | XX    | XX    | XX     |
@@ -213,6 +232,7 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
+| r-smiles   | XX    | XX    | XX    | XX     |
 | AC         | XX    | XX    | XX    | XX     |
 | AR         | XX    | XX    | XX    | XX     |
 | F          | XX    | XX    | XX    | XX     |
@@ -227,6 +247,7 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
+| r-smiles   | XX    | XX    | XX    | XX     |
 | AC         | XX    | XX    | XX    | XX     |
 | AR         | XX    | XX    | XX    | XX     |
 | F          | XX    | XX    | XX    | XX     |
