@@ -158,9 +158,9 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
 | r-smiles   | 56.3  | 78.7  | 84.7  | 89.7   |
-| AC         | +0.2  | +0.2  | –0.1  | +0.1   |
-| AR         | +0.0  | +0.7  | +0.5  | +0.2   |
-| F          | –0.1  | +0.0  | +0.7  | +0.5   |
+| AC         | **+0.2**  | +0.2  | –0.1  | +0.1   |
+| AR         | +0.0  | **+0.7**  | +0.5  | +0.2   |
+| F          | –0.1  | +0.0  | **+0.7**  | **+0.5**   |
 | GM         | –0.4  | +0.2  | +0.5  | +0.0   |
 | all        | XX    | XX    | XX    | XX     |
 | ensemble   | XX    | XX    | XX    | XX     |
@@ -173,9 +173,9 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
 | r-smiles   | 60.7  | 82.3  | 87.6  | 91.7   |
-| AC         | +0.3  | +0.2  | +0.2  | +0.3     |
-| AR         | +0.0  | +0.5  | +0.7  | +0.4     |
-| F          | –0.1  | +0.0  | +1.0  | +0.7     |
+| AC         | **+0.3**  | +0.2  | +0.2  | +0.3     |
+| AR         | +0.0  | **+0.5**  | +0.7  | +0.4     |
+| F          | –0.1  | +0.0  | **+1.0**  | **+0.7**     |
 | GM         | –0.3  | +0.3  | +0.4  | +0.1     |
 | all        | XX    | XX    | XX    | XX     |
 | ensemble   | XX    | XX    | XX    | XX     |
@@ -187,10 +187,10 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
-| r-smiles   | 58.9  | 81.4  | 87.3  | 91.9   |
-| AC         | +0.0  | +0.0  | –0.3  | +0.0   |
-| AR         | –0.2  | +0.3  | +0.2  | +0.0   |
-| F          | –0.1  | –0.1  | +0.6  | +0.5   |
+| r-smiles   | **58.9**  | 81.4  | 87.3  | 91.9   |
+| AC         | **+0.0**  | +0.0  | –0.3  | +0.0   |
+| AR         | –0.2  | **+0.3**  | +0.2  | +0.0   |
+| F          | –0.1  | –0.1  | **+0.6**  | **+0.5**   |
 | GM         | –0.5  | +0.1  | +0.3  | +0.1   |
 | all        | XX    | XX    | XX    | XX     |
 | ensemble   | XX    | XX    | XX    | XX     |
@@ -204,9 +204,9 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 |:----------:|:-----:|:-----:|:-----:|:------:|
 | r-smiles   | 30.7  | 52.4  | 60.6  | 67.6   |
 | AC         | +0.8  | +1.5  | +1.7  | +2.4   |
-| AR         | +1.4  | +5.9  | +4.5  | +3.7   |
+| AR         | +1.4  | **+5.9**  | **+4.5**  | **+3.7**   |
 | F          | +0.6  | +0.8  | +1.1  | +3.4   |
-| GM         | +2.5  | +2.5  | +1.7  | +0.6   |
+| GM         | **+2.5**  | +2.5  | +1.7  | +0.6   |
 | all        | XX    | XX    | XX    | XX     |
 | ensemble   | XX    | XX    | XX    | XX     |
 | average    | XX    | XX    | XX    | XX     |
@@ -217,11 +217,11 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
-| r-smiles   | 35.5  | 54.5  | 59.5  | 71.9   |
-| AC         | +4.2  | +0.9  | +0.0  | –4.1   |
-| AR         | +1.7  | +0.9  | +0.8  | –1.7   |
-| F          | –3.3  | +0.9  | +1.7  | –4.8   |
-| GM         | –4.1  | +0.1  | +3.3  | –4.8   |
+| r-smiles   | 35.5  | 54.5  | 59.5  | **71.9**   |
+| AC         | **+4.2**  | **+0.9**  | +0.0  | –4.1   |
+| AR         | +1.7  | **+0.9**  | +0.8  | –1.7   |
+| F          | –3.3  | **+0.9**  | +1.7  | –4.8   |
+| GM         | –4.1  | +0.1  | **+3.3**  | –4.8   |
 | all        | XX    | XX    | XX    | XX     |
 | ensemble   | XX    | XX    | XX    | XX     |
 | average    | XX    | XX    | XX    | XX     |
@@ -232,10 +232,10 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
-| r-smiles   | 52.3  | 73.3  | 79.7  | 85.9   |
+| r-smiles   | **52.3**  | 73.3  | 79.7  | 85.9   |
 | AC         | –0.5  | +0.0  | –0.6  | –0.9   |
-| AR         | –0.9  | +0.6  | +0.1  | –0.3   |
-| F          | –1.0  | +0.3  | +0.7  | +0.1   |
+| AR         | –0.9  | **+0.6**  | +0.1  | –0.3   |
+| F          | –1.0  | +0.3  | **+0.7**  | **+0.1**   |
 | GM         | –0.2  | –0.4  | +0.1  | –0.4   |
 | all        | XX    | XX    | XX    | XX     |
 | ensemble   | XX    | XX    | XX    | XX     |
@@ -248,10 +248,10 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
 | r-smiles   | 57.2  | 79.9  | 85.9  | 90.5   |
-| AC         | +0.4  | +0.3  | +0.0  | +0.4   |
-| AR         | +0.2  | +0.8  | +0.6  | +0.4   |
-| F          | +0.1  | –0.1  | +0.6  | +0.7   |
-| GM         | –0.4  | +0.4  | +0.6  | +0.2   |
+| AC         | **+0.4**  | +0.3  | +0.0  | +0.4   |
+| AR         | +0.2  | **+0.8**  | **+0.6**  | +0.4   |
+| F          | +0.1  | –0.1  | **+0.6**  | **+0.7**   |
+| GM         | –0.4  | +0.4  | **+0.6**  | +0.2   |
 | all        | XX    | XX    | XX    | XX     |
 | ensemble   | XX    | XX    | XX    | XX     |
 | average    | XX    | XX    | XX    | XX     |
