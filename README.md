@@ -149,6 +149,8 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 
 *see r-smiles_modified.zip* <br>
 
+All trained models and results were uploaded at https://drive.google.com/drive/folders/172dqjaaZn5Gm1YJr_R5Xm1TgrLuBQ0SA <br>
+
 <br>
 
 **retrosynthesis prediction (improved from retrained r-smiles)** <br>
