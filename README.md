@@ -163,7 +163,6 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 | F          | –0.1  | +0.0  | **+0.7**  | **+0.5**   |
 | GM         | –0.4  | +0.2  | +0.5  | +0.0   |
 |   |   |   |   |   |
-| all        | XX    | XX    | XX    | XX     |
 | ensemble   | **+0.3**    | **+1.2**    | **+0.9**    | **+0.7**     |
 | average    | XX    | XX    | XX    | XX     |
 
@@ -179,7 +178,6 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 | F          | –0.1  | +0.0  | **+1.0**  | **+0.7**     |
 | GM         | –0.3  | +0.3  | +0.4  | +0.1     |
 |   |   |   |   |   |
-| all        | XX    | XX    | XX    | XX     |
 | ensemble   | **+0.4**    | **+1.2**    | **+1.0**    | +0.5     |
 | average    | XX    | XX    | XX    | XX     |
 
@@ -195,7 +193,6 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 | F          | –0.1  | –0.1  | **+0.6**  | **+0.5**   |
 | GM         | –0.5  | +0.1  | +0.3  | +0.1   |
 |   |   |   |   |   |
-| all        | XX    | XX    | XX    | XX     |
 | ensemble   | **+0.2**    | **+1.2**    | **+0.7**    | **+0.8**     |
 | average    | XX    | XX    | XX    | XX     |
 
@@ -211,7 +208,6 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 | F          | +0.6  | +0.8  | +1.1  | +3.4   |
 | GM         | **+2.5**  | +2.5  | +1.7  | +0.6   |
 |   |   |   |   |   |
-| all        | XX    | XX    | XX    | XX     |
 | ensemble   | +1.1    | +2.2    | +3.1    | +0.3     |
 | average    | XX    | XX    | XX    | XX     |
 
@@ -227,7 +223,6 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 | F          | –3.3  | **+0.9**  | +1.7  | –4.8   |
 | GM         | –4.1  | +0.1  | **+3.3**  | –4.8   |
 |   |   |   |   |   |
-| all        | XX    | XX    | XX    | XX     |
 | ensemble   | –0.8    | **+0.9**   | +1.7    | –1.7     |
 | average    | XX    | XX    | XX    | XX     |
 
@@ -243,7 +238,6 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 | F          | –1.0  | +0.3  | **+0.7**  | **+0.1**   |
 | GM         | –0.2  | –0.4  | +0.1  | –0.4   |
 |   |   |   |   |   |
-| all        | XX    | XX    | XX    | XX     |
 | ensemble   | –0.7    | **+1.9**    | **+1.2**    | **+0.1**     |
 | average    | XX    | XX    | XX    | XX     |
 
@@ -259,6 +253,5 @@ To facilitate smoother training, the batch size was optimized for our system. <b
 | F          | +0.1  | –0.1  | **+0.6**  | **+0.7**   |
 | GM         | –0.4  | +0.4  | **+0.6**  | +0.2   |
 |   |   |   |   |   |
-| all        | XX    | XX    | XX    | XX     |
 | ensemble   | **+0.5**    | **+1.1**    | **+0.8**    | **+0.9**     |
 | average    | XX    | XX    | XX    | XX     |
