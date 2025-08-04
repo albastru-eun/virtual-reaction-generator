@@ -169,17 +169,6 @@ All trained models and results were uploaded at https://drive.google.com/drive/f
 
 <br>
 
-| modules     | top-1                             | top-3                             | top-5                             | top-10                            |
-|-------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
-| r-original  | 56.3                              | 78.7                              | 84.7                              | 89.7                              |
-| r-AC        | <span style="background-color:#ffcccc">+0.2</span> | <span style="background-color:#ffcccc">+0.2</span> | <span style="background-color:#cce5ff">–0.1</span> | <span style="background-color:#ffcccc">+0.1</span> |
-| r-AR        | +0.0                              | <span style="background-color:#ff6666">+0.7</span> | <span style="background-color:#ff9999">+0.5</span> | <span style="background-color:#ffcccc">+0.2</span> |
-| r-FN        | <span style="background-color:#cce5ff">–0.1</span> | +0.0                              | <span style="background-color:#ff6666">+0.7</span> | <span style="background-color:#ff9999">+0.5</span> |
-| r-GM        | <span style="background-color:#99ccff">–0.4</span> | <span style="background-color:#ffcccc">+0.2</span> | <span style="background-color:#ff9999">+0.5</span> | +0.0                              |
-| r-ensemble  | <span style="background-color:#ff9999">+0.3</span> | <span style="background-color:#ff4d4d">+1.2</span> | <span style="background-color:#ff6666">+0.9</span> | <span style="background-color:#ff6666">+0.7</span> |
-
-<br>
-
 *overall reaction type (MaxFrag)* <br>
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
