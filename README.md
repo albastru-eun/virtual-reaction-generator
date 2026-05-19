@@ -145,10 +145,7 @@ dataset\[1\]: mixed # remove it before use
 
 r-smiles: github.com/otori-bird/retrosynthesis <br>
 (pretrained with non-augmented datasets) <br>
-
-To facilitate smoother training, the batch size was optimized for our system. <br>
-
-*see r-smiles_modified.zip* <br>
+*see r-smiles_modified.zip for detailed parameters* <br>
 
 All trained models and results were uploaded at https://drive.google.com/drive/folders/172dqjaaZn5Gm1YJr_R5Xm1TgrLuBQ0SA <br>
 
