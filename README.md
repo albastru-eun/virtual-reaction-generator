@@ -73,12 +73,12 @@ Datasets generated using **single-module augmentation**.
 
 #### `test_dataset_translation/`
 Contains translated or processed test datasets used for model evaluation and benchmarking.
+All results were given as ~_detailed_results.csv, ~_final_results.txt, and ~_translated.txt
 
 ---
 
 #### `trained_models/`
 Contains pretrained and trained VRG-based reaction prediction models.<br>
-All results were given as ~_detailed_results.csv, ~_final_results.txt, and ~_translated.txt
 
 ---
 
