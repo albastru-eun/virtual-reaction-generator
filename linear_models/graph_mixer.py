@@ -153,7 +153,7 @@ def graph_mixer_linear_mod(reaction_groups, reaction_groups_val, n_iter, aggress
         for i in range(0, len(items), chunk_size):
             yield dict(items[i:i+chunk_size])
 
-    def filter_strain_rows(chunk_result):
+    def filter_strain_rows(chunk_result, aggressive):
         filtered = {}
         for key, rows in chunk_result.items():
             new_rows = []
@@ -197,7 +197,7 @@ def graph_mixer_linear_mod(reaction_groups, reaction_groups_val, n_iter, aggress
         chunk_result = graph_mixer.graph_mixer_synt(fg_chunk, n_iter)
 
         if chunk_result:
-            chunk_result = filter_strain_rows(chunk_result)
+            chunk_result = filter_strain_rows(chunk_result, aggressive)
             append_csv_chunk(chunk_result, train_csv_path)
 
 
@@ -210,5 +210,5 @@ def graph_mixer_linear_mod(reaction_groups, reaction_groups_val, n_iter, aggress
         chunk_result = graph_mixer.graph_mixer_synt(fg_chunk, n_iter)
 
         if chunk_result:
-            chunk_result = filter_strain_rows(chunk_result)
+            chunk_result = filter_strain_rows(chunk_result, aggressive)
             append_csv_chunk(chunk_result, val_csv_path)
