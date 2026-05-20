@@ -27,7 +27,7 @@ jupyter-lab
 > * **Module 3.** [`Functionalizer`](#3-functionalizer)
 > * **Module 4.** [`Graph Mixer`](#4-graph-mixer)
 > * **Linear Augmentation** [`Linear Model`](#5-linear-model)
-> * *There is no need to use each model individually, as they can instead be combined using a linear model.* <br>
+> * *no need to use each model individually, as they can instead be combined using a linear model* <br>
 > * [trained model and augmented datasets (pt file, click here)](https://drive.google.com/drive/folders/172dqjaaZn5Gm1YJr_R5Xm1TgrLuBQ0SA)
 
 <br>
