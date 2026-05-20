@@ -9,25 +9,6 @@ import augment_models.graph_mixer as graph_mixer
 import csv
 import os
 
-def strain_computation(mol, energy_cutoff_per_atom=5): #to prevent making strained molecules
-    try:
-        mol = Chem.AddHs(mol)
-        
-        if AllChem.EmbedMolecule(mol, randomSeed=42) != 0:
-            return True
-
-        AllChem.UFFOptimizeMolecule(mol, maxIters=200)
-        ff = AllChem.UFFGetMoleculeForceField(mol)
-        energy = ff.CalcEnergy()
-
-        num_atoms = mol.GetNumAtoms()
-        energy_per_atom = energy / num_atoms
-
-        return energy_per_atom > energy_cutoff_per_atom
-
-    except Exception:
-        return True
-
 def graph_mixer_linear_mod(reaction_groups, reaction_groups_val, n_iter, aggressive):
     fg_smarts_list = {
         'phenyl': 'c1ccccc1',
@@ -153,23 +134,6 @@ def graph_mixer_linear_mod(reaction_groups, reaction_groups_val, n_iter, aggress
         for i in range(0, len(items), chunk_size):
             yield dict(items[i:i+chunk_size])
 
-    def filter_strain_rows(chunk_result, aggressive):
-        filtered = {}
-        for key, rows in chunk_result.items():
-            new_rows = []
-            for r in rows:
-                mol = Chem.MolFromSmiles(r["output"])
-                if mol is None:
-                    continue
-                if aggressive == 0:
-                    if not strain_computation(mol):
-                        new_rows.append(r)
-                else:
-                    new_rows.append(r)
-            if new_rows:
-                filtered[key] = new_rows
-        return filtered
-
     def append_csv_chunk(data, filename, write_header=True):
         mode = 'a'
         with open(filename, mode, newline='', encoding='utf-8') as f:
@@ -194,10 +158,9 @@ def graph_mixer_linear_mod(reaction_groups, reaction_groups_val, n_iter, aggress
 
     for i, fg_chunk in enumerate(chunk_dict(reaction_groups, 25)):
         print(f"[Train] Chunk {i+1}")
-        chunk_result = graph_mixer.graph_mixer_synt(fg_chunk, n_iter)
+        chunk_result = graph_mixer.graph_mixer_synt(fg_chunk, n_iter, aggressive)
 
         if chunk_result:
-            chunk_result = filter_strain_rows(chunk_result, aggressive)
             append_csv_chunk(chunk_result, train_csv_path)
 
 
@@ -207,8 +170,7 @@ def graph_mixer_linear_mod(reaction_groups, reaction_groups_val, n_iter, aggress
 
     for i, fg_chunk in enumerate(chunk_dict(reaction_groups_val, 25)):
         print(f"[Val] Chunk {i+1}")
-        chunk_result = graph_mixer.graph_mixer_synt(fg_chunk, n_iter)
+        chunk_result = graph_mixer.graph_mixer_synt(fg_chunk, n_iter, aggressive)
 
         if chunk_result:
-            chunk_result = filter_strain_rows(chunk_result, aggressive)
             append_csv_chunk(chunk_result, val_csv_path)
