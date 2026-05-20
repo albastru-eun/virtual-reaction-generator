@@ -28,7 +28,65 @@ jupyter-lab
 > * **Module 4.** [`Graph Mixer`](#4-graph-mixer)
 > * **Linear Augmentation** [`Linear Model`](#5-linear-model)
 > * *no need to use each model individually, as they can instead be combined using a linear model* <br>
+
+<br>
+
 > * [trained model and augmented datasets (pt file, click here)](https://drive.google.com/drive/folders/172dqjaaZn5Gm1YJr_R5Xm1TgrLuBQ0SA)
+
+## VRG_models
+This repository contains datasets, trained models, and test resources used for the VRG-based reaction augmentation framework.
+---
+### Repository Structure
+
+```text
+VRG_models/
+├── datasets/
+│   ├── ESI_Figure_S1/
+│   ├── linear_augmentation/
+│   └── single_augmentation/
+│
+├── test_dataset_translation/
+│
+└── trained_models/
+```
+---
+
+### Folder Description
+
+#### `datasets/`
+
+Contains datasets generated and used throughout this work.
+
+##### `ESI_Figure_S1/`
+
+Datasets used for the experiments reported in **ESI Figure S1**.
+
+##### `linear_augmentation/`
+
+Datasets generated using the **linear augmentation strategy**.
+
+##### `single_augmentation/`
+
+Datasets generated using **single-module augmentation**.
+
+---
+
+#### `test_dataset_translation/`
+Contains translated or processed test datasets used for model evaluation and benchmarking.
+
+---
+
+#### `trained_models/`
+Contains pretrained and trained VRG-based reaction prediction models.<br>
+All results were given as ~_detailed_results.csv, ~_final_results.txt, and ~_translated.txt
+
+---
+
+### Notes
+
+* All datasets are provided in reaction SMILES format unless otherwise specified.
+* Validation and test datasets were kept unchanged during augmentation experiments.
+* Additional experimental details can be found in the Supporting Information (ESI).
 
 <br>
 
