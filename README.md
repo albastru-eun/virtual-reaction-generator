@@ -170,7 +170,7 @@ id: (id1, id2) # Partial ring from id1 was used to replace part of id2.
 nrows = 50000
 similarity_value = 0.8
 n_iter=10
-aggressive=0 #0 for strain filtering (different values in linear file)
+aggressive=0 #0 for strain filtering
 ```
 
 **output**
