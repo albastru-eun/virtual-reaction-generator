@@ -16,9 +16,7 @@ def strain_computation(mol, energy_cutoff_per_atom=5): #to prevent making strain
         if AllChem.EmbedMolecule(mol, randomSeed=42) != 0:
             return True
 
-        if AllChem.UFFOptimizeMolecule(mol, maxIters=200) != 0:
-            return True
-
+        AllChem.UFFOptimizeMolecule(mol, maxIters=200)
         ff = AllChem.UFFGetMoleculeForceField(mol)
         energy = ff.CalcEnergy()
 
