@@ -3,6 +3,7 @@ import copy
 from collections import defaultdict
 from tqdm import tqdm
 from rdkit import Chem
+from rdkit.Chem import AllChem
 from rdkit.Chem import rdmolops
 from itertools import product
 
