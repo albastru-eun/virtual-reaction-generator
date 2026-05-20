@@ -166,7 +166,8 @@ while module != 0:
     elif module == 4:
         print("Graph Mixer Selected")
         n_iter = get_size("n_iter?: ")
-        GM.graph_mixer_linear_mod(reaction_groups, reaction_groups_val, n_iter)
+        aggressive = get_size("aggressive? (0 for strain filtering): ")
+        GM.graph_mixer_linear_mod(reaction_groups, reaction_groups_val, n_iter, aggressive)
         num_tries += 1
         continue
     elif module == 0:
