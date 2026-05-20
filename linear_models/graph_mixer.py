@@ -28,7 +28,7 @@ def strain_computation(mol, energy_cutoff_per_atom=5): #to prevent making strain
     except Exception:
         return True
 
-def graph_mixer_linear_mod(reaction_groups, reaction_groups_val, n_iter):
+def graph_mixer_linear_mod(reaction_groups, reaction_groups_val, n_iter, aggressive):
     fg_smarts_list = {
         'phenyl': 'c1ccccc1',
         'naphthyl': 'c1cccc2c1cccc2',
@@ -161,7 +161,10 @@ def graph_mixer_linear_mod(reaction_groups, reaction_groups_val, n_iter):
                 mol = Chem.MolFromSmiles(r["output"])
                 if mol is None:
                     continue
-                if not strain_computation(mol):
+                if aggressive == 0:
+                    if not strain_computation(mol):
+                        new_rows.append(r)
+                else:
                     new_rows.append(r)
             if new_rows:
                 filtered[key] = new_rows
