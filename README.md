@@ -34,7 +34,9 @@ jupyter-lab
 > * [trained model and augmented datasets (pt file, click here)](https://drive.google.com/drive/folders/172dqjaaZn5Gm1YJr_R5Xm1TgrLuBQ0SA)
 
 ## VRG_models
+
 This repository contains datasets, trained models, and test resources used for the VRG-based reaction augmentation framework.
+
 ---
 ### Repository Structure
 
