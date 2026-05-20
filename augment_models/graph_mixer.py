@@ -197,15 +197,16 @@ def graph_mixer_synt(filtered_groups, n_iter_in, aggressive):
                         continue
                     seen_inputs.add(cmp_input_smi)
 
-                    if aggressive == 0:
-                        new_i_m = Chem.MolFromSmiles(input_smi)
-                        new_o_m = Chem.MolFromSmiles(output_smi)
+
+                    new_i_m = Chem.MolFromSmiles(input_smi)
+                    new_o_m = Chem.MolFromSmiles(output_smi)
 
                     if new_i_m is None or new_o_m is None:
                         continue
-
-                    if strain_computation(new_i_m) or strain_computation(new_o_m):
-                        continue
+                        
+                    if aggressive == 0:
+                        if strain_computation(new_i_m) or strain_computation(new_o_m):
+                            continue
 
                     result[group_key].append({
                         'inputs': input_smi,
