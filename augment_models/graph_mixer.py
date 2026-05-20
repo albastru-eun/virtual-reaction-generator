@@ -144,7 +144,7 @@ def mol_without_mapnum(mol):
         atom.SetAtomMapNum(0)
     return mol_copy
 
-def graph_mixer_synt(filtered_groups, n_iter_in):
+def graph_mixer_synt(filtered_groups, n_iter_in, aggressive):
     result = defaultdict(list)
     
     for group_key, rows in tqdm(filtered_groups.items()):
@@ -197,8 +197,9 @@ def graph_mixer_synt(filtered_groups, n_iter_in):
                         continue
                     seen_inputs.add(cmp_input_smi)
 
-                    new_i_m = Chem.MolFromSmiles(input_smi)
-                    new_o_m = Chem.MolFromSmiles(output_smi)
+                    if aggressive == 0:
+                        new_i_m = Chem.MolFromSmiles(input_smi)
+                        new_o_m = Chem.MolFromSmiles(output_smi)
 
                     if new_i_m is None or new_o_m is None:
                         continue
