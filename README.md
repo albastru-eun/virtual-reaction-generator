@@ -259,7 +259,7 @@ The training procedure was performed in the following order.
 
 <br>
 
-### Step 1. Generate the augmented pretraining dataset
+### Step 1. Run dataset preprocessing
 
 ```text
 python preprocessing/generate_PtoR_data.py -dataset USPTO_50K -augmentation 20 -processes 8
