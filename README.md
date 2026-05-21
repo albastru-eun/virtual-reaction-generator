@@ -209,6 +209,72 @@ r-smiles: github.com/otori-bird/retrosynthesis <br>
 
 All trained models and results were uploaded at https://drive.google.com/drive/folders/172dqjaaZn5Gm1YJr_R5Xm1TgrLuBQ0SA <br>
 
+Before training, copy the files inside **r-smiles_modified.zip** into the following directory:
+
+```text
+r-smiles\pretrain_finetune\finetune\PtoR
+```
+
+Additionally, transfer datasets into the following directory:
+
+```text
+r-smiles\dataset\USPTO_50K\raw_train.csv
+```
+
+The training procedure was performed in the following order.
+
+### Step 1. Generate the augmented pretraining dataset
+
+```text
+python preprocessing/generate_PtoR_data.py -dataset USPTO_50K -augmentation 20 -processes 8
+```
+
+### Step 2. Train the model using OpenNMT
+
+Run the OpenNMT training command with the prepared configuration file:
+
+```text
+onmt_train -config pretrain_finetune/finetune/PtoR/PtoR-50K-aug20-config.yml
+```
+
+*If you want to fine-tune the model from a different checkpoint, modify the train_from parameter in the corresponding configuration file.*
+
+### Step 3. Average checkpoints
+
+Run the prepared shell script to average the checkpoints and obtain the final model checkpoint:
+
+```text
+bash pretrain_finetune/finetune/PtoR/PtoR-50K-aug20-average.sh
+```
+
+*You may modify the shell script if you want to average different checkpoint ranges.*
+
+### Step 4. Run inference
+
+Run the OpenNMT translate command with the prepared configuration file:
+
+```text
+onmt_translate -config pretrain_finetune/finetune/PtoR/PtoR-50K-aug20-translate.yml
+```
+
+*If you want to use a different model checkpoint, modify the model parameter in the corresponding translation file.*
+
+### Step 5. Evaluate prediction accuracy
+
+```text
+python score.py \
+-beam_size 10 \
+-n_best 10 \
+-augmentation 20 \
+-targets ./dataset/USPTO_50K_PtoR_aug20/test/tgt-test.txt \
+-predictions ./exp/USPTO_50K_PtoR_aug20/average_model_26-30-results.txt \
+-process_number 8 \
+-score_alpha 1 \
+-save_file ./final_results.txt \
+-detailed \
+-source ./dataset/USPTO_50K_PtoR_aug20/test/src-test.txt
+```
+
 <br>
 
 **retrosynthesis prediction (improved from retrained r-smiles)** <br>
