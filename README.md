@@ -209,11 +209,31 @@ r-smiles: github.com/otori-bird/retrosynthesis <br>
 
 All trained models and results were uploaded at https://drive.google.com/drive/folders/172dqjaaZn5Gm1YJr_R5Xm1TgrLuBQ0SA <br>
 
+> * **Environment Preparation** <br>
+
+*The environment setup was identical to that used in the original R-SMILES GitHub repository.*
+
+Please make sure that Anaconda (or Minoconda is installed before proceeding. The appropriate versions of PyTorch and CUDA toolkit may depend on your hardware environment. According to OpenNMT-py requirements, the PyTorch version should not be lower than 1.6.
+
+```anaconda
+conda create -n r-smiles python=3.7
+conda activate r-smiles
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+pip install pandas==1.3.4
+pip install textdistance==4.2.2
+conda install rdkit=2020.09.1.0 -c rdkit
+pip install OpenNMT-py==2.2.0
+```
+
+<br>
+
 Before training, copy the files inside **r-smiles_modified.zip** into the following directory:
 
 ```text
 r-smiles\pretrain_finetune\finetune\PtoR
 ```
+
+<br>
 
 Additionally, transfer datasets into the following directory:
 
@@ -221,13 +241,15 @@ Additionally, transfer datasets into the following directory:
 r-smiles\dataset\USPTO_50K\raw_train.csv
 ```
 
-The training procedure was performed in the following order.
+The training procedure was performed in the following order. <br>
 
 ### Step 1. Generate the augmented pretraining dataset
 
 ```text
 python preprocessing/generate_PtoR_data.py -dataset USPTO_50K -augmentation 20 -processes 8
 ```
+
+<br>
 
 ### Step 2. Train the model using OpenNMT
 
@@ -239,6 +261,8 @@ onmt_train -config pretrain_finetune/finetune/PtoR/PtoR-50K-aug20-config.yml
 
 *If you want to fine-tune the model from a different checkpoint, modify the train_from parameter in the corresponding configuration file.*
 
+<br>
+
 ### Step 3. Average checkpoints
 
 Run the prepared shell script to average the checkpoints and obtain the final model checkpoint:
@@ -249,6 +273,8 @@ bash pretrain_finetune/finetune/PtoR/PtoR-50K-aug20-average.sh
 
 *You may modify the shell script if you want to average different checkpoint ranges.*
 
+<br>
+
 ### Step 4. Run inference
 
 Run the OpenNMT translate command with the prepared configuration file:
@@ -258,6 +284,8 @@ onmt_translate -config pretrain_finetune/finetune/PtoR/PtoR-50K-aug20-translate.
 ```
 
 *If you want to use a different model checkpoint, modify the model parameter in the corresponding translation file.*
+
+<br>
 
 ### Step 5. Evaluate prediction accuracy
 
