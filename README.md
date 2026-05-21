@@ -306,17 +306,7 @@ onmt_translate -config pretrain_finetune/finetune/PtoR/PtoR-50K-aug20-translate.
 ### Step 5. Evaluate prediction accuracy
 
 ```text
-python score.py \
--beam_size 10 \
--n_best 10 \
--augmentation 20 \
--targets ./dataset/USPTO_50K_PtoR_aug20/test/tgt-test.txt \
--predictions ./exp/USPTO_50K_PtoR_aug20/average_model_26-30-results.txt \
--process_number 8 \
--score_alpha 1 \
--save_file ./final_results.txt \
--detailed \
--source ./dataset/USPTO_50K_PtoR_aug20/test/src-test.txt
+python score.py -beam_size 10 -n_best 10 -augmentation 20 -targets ./dataset/USPTO_50K_PtoR_aug20/test/tgt-test.txt -predictions ./exp/USPTO_50K_PtoR_aug20/finetune_average_model_26-30-results.txt -process_number 8	-score_alpha 1 -save_file ./final_results.txt -detailed -source ./dataset/USPTO_50K_PtoR_aug20/test/src-test.txt
 ```
 
 <br>
