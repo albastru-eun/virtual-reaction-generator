@@ -43,6 +43,7 @@ VRG_models/
 ├── datasets/
 │   ├── ESI_Figure_S1/
 │   ├── linear_augmentation/
+│   ├── original_datasets/
 │   └── single_augmentation/
 │
 ├── test_dataset_translation/
@@ -64,6 +65,10 @@ Datasets used for the experiments reported in **ESI Figure S1**.
 ##### `linear_augmentation/`
 
 Datasets generated using the **linear augmentation strategy**.
+
+##### `original_datasets/`
+
+Original datasets.
 
 ##### `single_augmentation/`
 
