@@ -207,7 +207,9 @@ r-smiles: github.com/otori-bird/retrosynthesis <br>
 (pretrained with non-augmented datasets) <br>
 *see r-smiles_modified.zip for detailed parameters* <br>
 
-All trained models and results were uploaded at https://drive.google.com/drive/folders/172dqjaaZn5Gm1YJr_R5Xm1TgrLuBQ0SA <br>
+All trained models and results were uploaded at https://drive.google.com/drive/folders/172dqjaaZn5Gm1YJr_R5Xm1TgrLuBQ0SA 
+
+<br>
 
 **Environment Preparation** <br>
 
