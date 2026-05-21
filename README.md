@@ -8,7 +8,7 @@
 
 ***
 
-> * **installation** <br>
+> * **installation**
 *VRG was developed in jupyter-lab under anaconda environment.*
 
 ```anaconda
@@ -27,7 +27,7 @@ jupyter-lab
 > * **Module 3.** [`Functionalizer`](#3-functionalizer)
 > * **Module 4.** [`Graph Mixer`](#4-graph-mixer)
 > * **Linear Augmentation** [`Linear Model`](#5-linear-model)
-> * *no need to use each model individually, as they can instead be combined using a linear model* <br>
+> * *no need to use each model individually, as they can instead be combined using a linear model*
 
 <br>
 
@@ -78,7 +78,9 @@ All results were given as ~_detailed_results.csv, ~_final_results.txt, and ~_tra
 ---
 
 #### `trained_models/`
-Contains pretrained and trained VRG-based reaction prediction models.<br>
+Contains pretrained and trained VRG-based reaction prediction models.
+
+<br>
 
 ---
 
@@ -96,7 +98,7 @@ Contains pretrained and trained VRG-based reaction prediction models.<br>
 
 ### **1. Atom Changer**
 
-main_atom_changer.ipynb <br>
+main_atom_changer.ipynb
 dataset\[1\]: reaction center # remove it before use
 
 ```python
@@ -117,7 +119,7 @@ n_iter=5
 
 ### **2. Atom Remover**
 
-main_atom_remover.ipynb <br>
+main_atom_remover.ipynb
 dataset\[1\]: UNK
 
 ```python
@@ -138,7 +140,7 @@ n_iter=15
 
 ### **3. Functionalizer**
 
-main_functionalizer.ipynb <br>
+main_functionalizer.ipynb
 dataset\[1\]: reaction center # remove it before use
 
 ```python
@@ -161,8 +163,8 @@ daring_value = 0.6
 
 ### **4. Graph Mixer**
 
-main_graph_mixer.ipynb <br>
-dataset\[1\]: number of subsituents around the changed ring # remove it before use <br>
+main_graph_mixer.ipynb
+dataset\[1\]: number of subsituents around the changed ring # remove it before use
 id: (id1, id2) # Partial ring from id1 was used to replace part of id2.
 
 ```python
@@ -184,15 +186,15 @@ aggressive=0 #0 for strain filtering
 
 ### **5. Linear Model**
 
-main_linear.ipynb <br>
-*or* <br>
+main_linear.ipynb
+*or*
 main_linear.py # for Linux
 
 <br>
 
 dataset\[1\]: mixed # remove it before use
 
-### * *example of utilization* <br>
+### * *example of utilization* 
 (example) 500 rows from train > module 4 (10 iter) > module 3 (5 iter) > module 2 (5 iter) > 725 rows <br>
 <p align="left">
  <img src = "readme/linear_real.png" style="width:55%; height:55%;">
@@ -203,15 +205,15 @@ dataset\[1\]: mixed # remove it before use
 
 ### **Benchmark model**
 
-r-smiles: github.com/otori-bird/retrosynthesis <br>
-(pretrained with non-augmented datasets) <br>
-*see r-smiles_modified.zip for detailed parameters* <br>
+r-smiles: github.com/otori-bird/retrosynthesis
+(pretrained with non-augmented datasets)
+*see r-smiles_modified.zip for detailed parameters*
 
 All trained models and results were uploaded at https://drive.google.com/drive/folders/172dqjaaZn5Gm1YJr_R5Xm1TgrLuBQ0SA 
 
 <br>
 
-**Environment Preparation** <br>
+**Environment Preparation**
 
 *The environment setup was identical to that used in the original R-SMILES GitHub repository.*
 
@@ -243,7 +245,9 @@ Additionally, transfer datasets into the following directory:
 r-smiles\dataset\USPTO_50K\raw_train.csv
 ```
 
-The training procedure was performed in the following order. <br>
+The training procedure was performed in the following order.
+
+<br>
 
 ### Step 1. Generate the augmented pretraining dataset
 
@@ -306,10 +310,11 @@ python score.py \
 ```
 
 <br>
+<br>
 
-**retrosynthesis prediction (improved from retrained r-smiles)** <br>
+**retrosynthesis prediction (improved from retrained r-smiles)**
 
-*overall reaction type* <br>
+*overall reaction type*
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
@@ -324,7 +329,7 @@ python score.py \
 
 <br>
 
-*overall reaction type (MaxFrag)* <br>
+*overall reaction type (MaxFrag)*
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
@@ -339,7 +344,7 @@ python score.py \
 
 <br>
 
-*acyclic* <br>
+*acyclic*
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
@@ -354,7 +359,7 @@ python score.py \
 
 <br>
 
-*ring-opening* <br>
+*ring-opening*
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
@@ -369,7 +374,7 @@ python score.py \
 
 <br>
 
-*ring-closing* <br>
+*ring-closing*
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
@@ -384,7 +389,7 @@ python score.py \
 
 <br>
 
-*with chiral reactant* <br>
+*with chiral reactant*
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
@@ -399,7 +404,7 @@ python score.py \
 
 <br>
 
-*w/o chiral reactant* <br>
+*w/o chiral reactant*
 
 |   modules  | top-1 | top-3 | top-5 | top-10 |
 |:----------:|:-----:|:-----:|:-----:|:------:|
@@ -412,3 +417,5 @@ python score.py \
 | r-ensemble   | +0.5    | +1.1    | **+0.8**    | +0.9     |
 | r-ensemble'   | **+0.6**    | **+1.3**    | +0.7    | **+1.0**     |
 
+<br>
+<br>
