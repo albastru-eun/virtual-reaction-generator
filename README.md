@@ -30,6 +30,7 @@ jupyter-lab
 > * *no need to use each model individually, as they can instead be combined using a linear model*
 
 <br>
+<br>
 
 ### [trained model and augmented datasets (pt file, click here)](https://drive.google.com/drive/folders/172dqjaaZn5Gm1YJr_R5Xm1TgrLuBQ0SA)
 ##### &nbsp;&nbsp; [datasets are also available on Zenodo](https://doi.org/10.5281/zenodo.20319492)
@@ -41,7 +42,7 @@ jupyter-lab
 This repository contains datasets, trained models, and test resources used for the VRG-based reaction augmentation framework.
 
 ---
-### Repository Structure
+### Dataset Repository Structure
 
 ```text
 VRG_models/
