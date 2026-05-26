@@ -54,7 +54,10 @@ VRG_models/
 │
 ├── test_dataset_translation/
 │
-└── trained_models/
+├──trained_models/
+│
+└──terminal_output_logs.txt
+
 ```
 ---
 
@@ -90,6 +93,11 @@ All results were given as ~_detailed_results.csv, ~_final_results.txt, and ~_tra
 
 #### `trained_models/`
 Contains pretrained and trained VRG-based reaction prediction models.
+
+---
+
+#### `terminal_output_logs.txt`
+Contains representative terminal output logs generated during translation under the R-SMILES/OpenNMT framework.
 
 <br>
 
