@@ -42,7 +42,7 @@ jupyter-lab
 This repository contains datasets, trained models, and test resources used for the VRG-based reaction augmentation framework.
 
 ---
-### Repository Structure
+### Google Drive Repository Structure
 
 ```text
 VRG_models/
