@@ -54,9 +54,9 @@ VRG_models/
 │
 ├── test_dataset_translation/
 │
-├──trained_models/
+├── trained_models/
 │
-└──terminal_output_logs.txt
+└── terminal_output_logs.txt
 
 ```
 ---
