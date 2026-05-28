@@ -34,7 +34,7 @@ jupyter-lab
 
 ### [trained model and augmented datasets (pt file, click here)](https://drive.google.com/drive/folders/172dqjaaZn5Gm1YJr_R5Xm1TgrLuBQ0SA)
 ##### &nbsp;&nbsp; [datasets are also available on Zenodo](https://doi.org/10.5281/zenodo.20319492)
-&nbsp;&nbsp; *Kim, H. E., Chung, W.-. jin ., & Kim, H. W. (2026). Augmented USPTO-50k Datasets by Virtual Reaction Generator (VRG) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20319492*
+&nbsp;&nbsp; *Kim, H. E., Chung, W.-j., & Kim, H. W. (2026). Augmented USPTO-50k Datasets by Virtual Reaction Generator (VRG) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20319492*
 
 <br>
 
