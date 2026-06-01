@@ -32,9 +32,9 @@ jupyter-lab
 <br>
 <br>
 
-### [trained model and augmented datasets (pt file, click here)](https://drive.google.com/drive/folders/172dqjaaZn5Gm1YJr_R5Xm1TgrLuBQ0SA)
-##### &nbsp;&nbsp; [datasets are also available on Zenodo](https://doi.org/10.5281/zenodo.20319492)
-&nbsp;&nbsp; *Augmented USPTO-50k Datasets by Virtual Reaction Generator (VRG) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20319492*
+### [Augmented datasets, trained models, and results (Zenodo, DOI)](https://doi.org/10.5281/zenodo.20319492)
+
+##### [Mirror (Google Drive)](https://drive.google.com/drive/folders/172dqjaaZn5Gm1YJr_R5Xm1TgrLuBQ0SA)
 
 <br>
 
