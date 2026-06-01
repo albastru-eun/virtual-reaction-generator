@@ -32,7 +32,7 @@ jupyter-lab
 <br>
 <br>
 
-### [Augmented datasets, trained models, and results (Zenodo, DOI)](https://doi.org/10.5281/zenodo.20319492)
+### [Augmented datasets, trained models, and results (Zenodo)](https://doi.org/10.5281/zenodo.20319492)
 
 ##### [Mirror (Google Drive)](https://drive.google.com/drive/folders/172dqjaaZn5Gm1YJr_R5Xm1TgrLuBQ0SA)
 
